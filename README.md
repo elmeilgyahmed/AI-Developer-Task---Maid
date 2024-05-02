@@ -87,22 +87,19 @@ the endpoints that we have
 ![image](https://github.com/elmeilgyahmed/AI-Developer-Task---Maid/assets/50087016/093f69c7-6f53-483f-bd2d-3c206c10eac9)
 
 ● POST /api/devices/{id}: Retrieve details of a specific device by ID.
+
+![image](https://github.com/elmeilgyahmed/AI-Developer-Task---Maid/assets/50087016/bb1fb3e2-4a88-488a-a537-b22c61b1ab55)
+
 ● POST /api/devices: Add a new device.
+
+![image](https://github.com/elmeilgyahmed/AI-Developer-Task---Maid/assets/50087016/37f8bf9f-cfeb-41d4-b01e-e96b75c4aeb7)
+
 ● POST /api/predict/{deviceId}
 
-    List the features of your project and how they can be used. You can also mention any future features or improvements planned.
+![image](https://github.com/elmeilgyahmed/AI-Developer-Task---Maid/assets/50087016/642edf29-2a35-417c-8dc2-1f87e79257c1)
 
-Contributing
 
-    Fork the repository.
-    Create a new branch (git checkout -b feature/fooBar).
-    Make your changes.
-    Commit your changes (git commit -am 'Add some fooBar').
-    Push to the branch (git push origin feature/fooBar).
-    Create a new Pull Request.
 
-License
+Contributors
+Ahmed Kamal
 
-Specify the license under which your project is distributed.
-
-Replace `your-username` and `your-repository` with your GitHub username and repository name, respectively. Adjust the content as needed to fit your project's details. Save this text in a file named `README.md` in the root directory of your project.
