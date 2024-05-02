@@ -82,23 +82,28 @@ Resutls
 Postman is utilzed to test the endpoints
 the endpoints that we have 
 
-● GET /api/devices/: Retrieve a list of all devices
+● GET /api/devices/
+: Retrieve a list of all devices
 
 ![image](https://github.com/elmeilgyahmed/AI-Developer-Task---Maid/assets/50087016/093f69c7-6f53-483f-bd2d-3c206c10eac9)
 
-● POST /api/devices/{id}: Retrieve details of a specific device by ID.
+● POST /api/devices/{id}
+: Retrieve details of a specific device by ID.
 
 ![image](https://github.com/elmeilgyahmed/AI-Developer-Task---Maid/assets/50087016/bb1fb3e2-4a88-488a-a537-b22c61b1ab55)
 
-● POST /api/devices: Add a new device.
+● POST /api/devices
+: Add a new device.
 
 ![image](https://github.com/elmeilgyahmed/AI-Developer-Task---Maid/assets/50087016/37f8bf9f-cfeb-41d4-b01e-e96b75c4aeb7)
 
 ● POST /api/predict/{deviceId}
+: Last endpoint and the most important that will call Python API to predict the model price then save the result in
+the entity.
 
 ![image](https://github.com/elmeilgyahmed/AI-Developer-Task---Maid/assets/50087016/642edf29-2a35-417c-8dc2-1f87e79257c1)
 
-
+Please refer to the Docmunattion and Result file for more explantion of the endpoints functionalitites 
 
 Contributors
 Ahmed Kamal
