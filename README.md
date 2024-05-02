@@ -16,8 +16,8 @@ The project is a Flask and Spring Boot application that manages mobile device da
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/elmeilgyahmed/AI-Developer-Task---Maid
-   cd AI-Developer-Task---Maid
+   $ git clone https://github.com/elmeilgyahmed/AI-Developer-Task---Maid
+   $ cd AI-Developer-Task---Maid
 
 # install dependencies based on your project (if any)
 ### Usage
@@ -64,7 +64,7 @@ Dependcies
 ```
 Then install requirements
    ```sh
-    pip install requirements.txt
+    $ pip install requirements.txt
    ```
 
 
