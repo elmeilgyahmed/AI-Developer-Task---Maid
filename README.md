@@ -1,6 +1,7 @@
-# Project Title
+# Devices Price Classification System
+using Python and Spring Boot
 
-Brief description of your project.
+The project is a Flask and Spring Boot application that manages mobile device data and predicts prices based on specifications. It uses an SQLite database to store device information and a machine learning model (SVM) to predict prices. The Flask application provides endpoints to add new device records, retrieve device prices by ID, and predict prices using the SVM model. The Spring Boot application provides an endpoint to predict prices using the Flask API. The project demonstrates how to integrate Flask and Spring Boot with an SQLite database and a machine learning model for predicting prices based on device specifications.
 
 ## Table of Contents
 
