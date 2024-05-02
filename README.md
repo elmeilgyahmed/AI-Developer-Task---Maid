@@ -79,6 +79,17 @@ Now we can test the the impmented endpoints
 
 Resutls
 
+Postman is utilzed to test the endpoints
+the endpoints that we have 
+
+● GET /api/devices/: Retrieve a list of all devices
+
+![image](https://github.com/elmeilgyahmed/AI-Developer-Task---Maid/assets/50087016/093f69c7-6f53-483f-bd2d-3c206c10eac9)
+
+● POST /api/devices/{id}: Retrieve details of a specific device by ID.
+● POST /api/devices: Add a new device.
+● POST /api/predict/{deviceId}
+
     List the features of your project and how they can be used. You can also mention any future features or improvements planned.
 
 Contributing
