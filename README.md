@@ -7,7 +7,7 @@ The project is a Flask and Spring Boot application that manages mobile device da
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Features](#features)
+- [Resutls](#results)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -24,7 +24,11 @@ The project is a Flask and Spring Boot application that manages mobile device da
 Make sure you have the followiing packages:
 - Apache Maven 3.6.3
 - Java version: 11.0.22
-  in pom.xml file sholud have spring boot like this
+- In your vs code install the spring boot pack (VS Code Spring Boot Application Development Extension Pack) to run spring boot apps
+  and Java Extension Pack
+
+  Build your Java prdouct and choose Spring Boot App and maven
+  Now your pom.xml file sholud look like this 
 
   ```sh
    	<parent>
@@ -33,7 +37,8 @@ Make sure you have the followiing packages:
    		<version>2.6.3</version>
    		<relativePath/>
    	</parent>
-Dependcies
+Make sure pom.xml have the following dependecies
+
    ```sh
          <dependencies>
       		<!-- Spring Boot Starter Web -->
@@ -66,14 +71,13 @@ Then install requirements
    ```sh
     $ pip install requirements.txt
    ```
+Run the flask endpoint it will utlize  port 5000 by default
+    $ ./endpoint 
+Then run spring boot endpoints using vs code it will utlize port 8080 by default
 
+Now we can test the the impmented endpoints 
 
-Explain how to use your project. Provide examples or screenshots if possible to illustrate usage.
-Technologies Used
-
-    List the technologies, frameworks, and libraries used in your project.
-
-Features
+Resutls
 
     List the features of your project and how they can be used. You can also mention any future features or improvements planned.
 
