@@ -20,13 +20,13 @@ The project is a Flask and Spring Boot application that manages mobile device da
    cd AI-Developer-Task---Maid
 
 # install dependencies based on your project (if any)
-Usage
+### Usage
+Make sure you have the followiing packages:
+- Apache Maven 3.6.3
+- Java version: 11.0.22
+  in pom.xml file sholud have spring boot like this
 
-Apache Maven 3.6.3
-Java version: 11.0.22
-pom.xml 
-
-      ```sh
+  ```sh
    	<parent>
    		<groupId>org.springframework.boot</groupId>
    		<artifactId>spring-boot-starter-parent</artifactId>
@@ -62,8 +62,7 @@ Dependcies
       
       	</dependencies>
 ```
-
-requirements.txt
+Then install requirements
    ```sh
     pip install requirements.txt
    ```
