@@ -16,7 +16,7 @@ The project is a Flask and Spring Boot application that manages mobile device da
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/elmeilgyahmed/AI-Developer-Task---Maid
 cd your-repository
 # install dependencies based on your project (if any)
 Usage
