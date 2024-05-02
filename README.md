@@ -17,9 +17,56 @@ The project is a Flask and Spring Boot application that manages mobile device da
 
    ```sh
    git clone https://github.com/elmeilgyahmed/AI-Developer-Task---Maid
-cd your-repository
+
+   ```sh
+   cd AI-Developer-Task---Maid
+
 # install dependencies based on your project (if any)
 Usage
+
+Apache Maven 3.6.3
+Java version: 11.0.22
+pom.xml 
+
+      ```sh
+   	<parent>
+   		<groupId>org.springframework.boot</groupId>
+   		<artifactId>spring-boot-starter-parent</artifactId>
+   		<version>2.6.3</version>
+   		<relativePath/>
+   	</parent>
+    ```
+dependcies
+   ```sh
+      <dependencies>
+   		<!-- Spring Boot Starter Web -->
+   		<dependency>
+   			<groupId>org.springframework.boot</groupId>
+   			<artifactId>spring-boot-starter-web</artifactId>
+   		</dependency>
+   
+   		<!-- Spring Boot Starter Test -->
+   		<dependency>
+   			<groupId>org.springframework.boot</groupId>
+   			<artifactId>spring-boot-starter-test</artifactId>
+   			<scope>test</scope>
+   		</dependency>
+   		<!-- SQLite JDBC Driver -->
+   		<dependency>
+   			<groupId>org.xerial</groupId>
+   			<artifactId>sqlite-jdbc</artifactId>
+   			<version>3.34.0</version>
+   		</dependency>
+   		<!-- Spring Boot Starter JDBC -->
+   		<dependency>
+   			<groupId>org.springframework.boot</groupId>
+   			<artifactId>spring-boot-starter-jdbc</artifactId>
+   		</dependency>
+   
+   	</dependencies>
+```
+
+reqirments
 
 Explain how to use your project. Provide examples or screenshots if possible to illustrate usage.
 Technologies Used
