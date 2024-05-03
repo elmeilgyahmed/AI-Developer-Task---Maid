@@ -8,8 +8,7 @@ The project is a Flask and Spring Boot application that manages mobile device da
 - [Files](#files)
 - [Usage](#usage)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contributors](#contributors)
 
 ## Installation
 
@@ -84,7 +83,8 @@ $ ./endpoint.py
 Then run Spring Boot endpoints using VS Code; it will utilize port 8080 by default.
 
 Now, you can test the implemented endpoints.
-Results
+
+- Results
 
 - The model achieved an accuracy of 98% on the training data and 97% on the test data.
 - Postman is utilized to test the endpoints.
