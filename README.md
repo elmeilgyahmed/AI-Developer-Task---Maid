@@ -41,9 +41,7 @@ Build your Java product and choose Spring Boot App and Maven. Now your pom.xml f
    		<version>2.6.3</version>
    		<relativePath/>
    	</parent>
-Make sure pom.xml have the following dependecies
 
-   ```sh
          <dependencies>
       		<!-- Spring Boot Starter Web -->
       		<dependency>
