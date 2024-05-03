@@ -84,7 +84,7 @@ Then run Spring Boot endpoints using VS Code; it will utilize port 8080 by defau
 
 Now, you can test the implemented endpoints.
 
-- Results
+## Results
 
 - The model achieved an accuracy of 98% on the training data and 97% on the test data.
 - Postman is utilized to test the endpoints.
@@ -113,7 +113,7 @@ the entity.
 
 Please refer to the Documentation and Result file for a more detailed explanation of the endpoints' functionalities.
 
-Contributors:
+## Contributors:
 
 -Ahmed Kamal
 
