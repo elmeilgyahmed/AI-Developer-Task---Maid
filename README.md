@@ -21,7 +21,7 @@ The project is a Flask and Spring Boot application that manages mobile device da
 
 ## Files
 1. Dataset - This folder contains the raw data and database files in SQLite format.
-2. EDA_Maid - Notebook for EDA process and training the model as well as all insights for the trained model.
+2. Maids_EDA - Notebook for EDA process and training the model as well as all insights for the trained model.
 3. endpoint.py - Flask API endpoint to receive requests from the Spring Boot app to make predictions on the device price.
 4. svm_model.joblib - the trained model weights. To be used in the prediction process.
 5. endpoint - This folder has Spring Boot app files and dependencies.
@@ -86,9 +86,9 @@ Then run Spring Boot endpoints using VS Code; it will utilize port 8080 by defau
 Now, you can test the implemented endpoints.
 Results
 
--The model achieved an accuracy of 98% on the training data and 97% on the test data.
--Postman is utilized to test the endpoints.
--The endpoints that we have
+- The model achieved an accuracy of 98% on the training data and 97% on the test data.
+- Postman is utilized to test the endpoints.
+- The endpoints that we have
 
  ● GET /api/devices/
 : Retrieve a list of all devices
