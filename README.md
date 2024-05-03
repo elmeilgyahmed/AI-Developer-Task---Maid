@@ -5,9 +5,9 @@ The project is a Flask and Spring Boot application that manages mobile device da
 ## Table of Contents
 
 - [Installation](#installation)
+- [Files](#files)
 - [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Resutls](#results)
+- [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -19,17 +19,22 @@ The project is a Flask and Spring Boot application that manages mobile device da
    $ git clone https://github.com/elmeilgyahmed/AI-Developer-Task---Maid
    $ cd AI-Developer-Task---Maid
 
-# install dependencies based on your project (if any)
-### Usage
-Make sure you have the followiing packages:
+## Files
+1. Dataset - This folder contains the raw data and database files in SQLite format.
+2. EDA_Maid - Notebook for EDA process and training the model as well as all insights for the trained model.
+3. endpoint.py - Flask API endpoint to receive requests from the Spring Boot app to make predictions on the device price.
+4. svm_model.joblib - the trained model weights. To be used in the prediction process.
+5. endpoint - This folder has Spring Boot app files and dependencies.
+6. Documentation and Results.pdf - Documentation of the project and results of the endpoints.
+
+## Usage
+### Dependencies
+Make sure you have the following packages:
 - Apache Maven 3.6.3
 - Java version: 11.0.22
-- In your vs code install the spring boot pack (VS Code Spring Boot Application Development Extension Pack) to run spring boot apps
-  and Java Extension Pack
+- In your VS Code, install the Spring Boot pack (VS Code Spring Boot Application Development Extension Pack) to run Spring Boot apps and Java Extension Pack.
 
-  Build your Java prdouct and choose Spring Boot App and maven
-  Now your pom.xml file sholud look like this 
-
+Build your Java product and choose Spring Boot App and Maven. Now your pom.xml file should look like this:
   ```sh
    	<parent>
    		<groupId>org.springframework.boot</groupId>
@@ -71,18 +76,21 @@ Then install requirements
    ```sh
     $ pip install requirements.txt
    ```
-Run the flask endpoint it will utlize  port 5000 by default
-    $ ./endpoint 
-Then run spring boot endpoints using vs code it will utlize port 8080 by default
+Run the Flask endpoint; it will utilize port 5000 by default:
+   ``` sh
+$ ./endpoint.py
+```
 
-Now we can test the the impmented endpoints 
+Then run Spring Boot endpoints using VS Code; it will utilize port 8080 by default.
 
-Resutls
+Now, you can test the implemented endpoints.
+Results
 
-Postman is utilzed to test the endpoints
-the endpoints that we have 
+-The model achieved an accuracy of 98% on the training data and 97% on the test data.
+-Postman is utilized to test the endpoints.
+-The endpoints that we have
 
-● GET /api/devices/
+ ● GET /api/devices/
 : Retrieve a list of all devices
 
 ![image](https://github.com/elmeilgyahmed/AI-Developer-Task---Maid/assets/50087016/093f69c7-6f53-483f-bd2d-3c206c10eac9)
@@ -103,8 +111,12 @@ the entity.
 
 ![image](https://github.com/elmeilgyahmed/AI-Developer-Task---Maid/assets/50087016/642edf29-2a35-417c-8dc2-1f87e79257c1)
 
-Please refer to the Docmunattion and Result file for more explantion of the endpoints functionalitites 
+Please refer to the Documentation and Result file for a more detailed explanation of the endpoints' functionalities.
 
-Contributors
-Ahmed Kamal
+Contributors:
+
+-Ahmed Kamal
+
+
+
 
