@@ -8,7 +8,7 @@ The project is a Flask and Spring Boot application that manages mobile device da
 - [Files](#files)
 - [Usage](#usage)
 - [Results](#results)
-- [Improvement](#enhance)
+- [Improvement](#improve)
 - [Contributors](#contributors)
 
 ## Installation
