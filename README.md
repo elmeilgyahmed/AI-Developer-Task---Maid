@@ -8,6 +8,7 @@ The project is a Flask and Spring Boot application that manages mobile device da
 - [Files](#files)
 - [Usage](#usage)
 - [Results](#results)
+- [Future Enhancement](#enhance)
 - [Contributors](#contributors)
 
 ## Installation
@@ -111,6 +112,15 @@ the entity.
 
 Please refer to the Documentation and Result file for a more detailed explanation of the endpoints' functionalities.
 
+# Future Enhancement
+
+To achieve faster query response from an SQLite database, the following enhancement can be implemented:
+
+    Utilize the pipeline method during model training to produce pre-defined scaler weights.
+    These pre-defined weights can be stored and used during query processing for faster normalization of input data.
+    This approach can significantly reduce request processing time, as most of the time is typically spent on the normalization process.
+
+By incorporating this enhancement, the system can achieve faster response times for queries, improving overall performance.
 ## Contributors:
 
 -Ahmed Kamal
