@@ -119,13 +119,20 @@ Please refer to the Documentation and Result file for a more detailed explanatio
 
 To achieve faster query response from an SQLite database, the following enhancement can be implemented:
 
+*On ML model level
+
    1.Utilize the pipeline method during model training to produce pre-defined scaler weights.
    
    2.These pre-defined weights can be stored and used during query processing for faster normalization of input data.
    
    3.This approach can significantly reduce request processing time, as most of the time is typically spent on the normalization process.
    
-   4.Utilize Spring Data instead of JDBC to eliminate the need for native SQL and simplify code maintenance and readability.
+*On Spring App level
+   
+   1.Utilize Spring Data instead of JDBC to eliminate the need for native SQL and simplify code maintenance and readability.
+
+   2.Separate controllers from service functions to fully apply the design pattern, enhancing scalability and maintainability for future implementations. This approach             ensures a clear separation of concerns, where controllers handle HTTP requests and responses, while services encapsulate the business logic. This separation facilitates       easier testing, debugging, and future expansion of the application.
+
 
 
 By incorporating this enhancement, the system can achieve faster response times for queries, improving overall performance.
