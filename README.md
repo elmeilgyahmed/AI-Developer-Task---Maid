@@ -119,7 +119,7 @@ Please refer to the Documentation and Result file for a more detailed explanatio
 
 To achieve faster query response from an SQLite database, the following enhancement can be implemented:
 
-*On ML model level
+**On ML model level**
 
    1.Utilize the pipeline method during model training to produce pre-defined scaler weights.
    
@@ -127,7 +127,7 @@ To achieve faster query response from an SQLite database, the following enhancem
    
    3.This approach can significantly reduce request processing time, as most of the time is typically spent on the normalization process.
    
-*On Spring App level
+**On Spring App level**
    
    1.Utilize Spring Data instead of JDBC to eliminate the need for native SQL and simplify code maintenance and readability.
 
