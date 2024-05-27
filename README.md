@@ -129,9 +129,11 @@ To achieve faster query response from an SQLite database, the following enhancem
    
 **On Spring App level**
    
-   1.Utilize Spring Data instead of JDBC to eliminate the need for native SQL and simplify code maintenance and readability.
+1.Utilize Spring Data JPA: Replace direct JDBC operations with Spring Data JPA repositories. Define an interface extending JpaRepository for each entity to perform CRUD operations. Spring Data JPA provides repository implementations at runtime.
 
-   2.Separate controllers from service functions to fully apply the design pattern, enhancing scalability and maintainability for future implementations. This approach             ensures a clear separation of concerns, where controllers handle HTTP requests and responses, while services encapsulate the business logic. This separation facilitates       easier testing, debugging, and future expansion of the application.
+2.Separate Controllers and Services: Create separate classes for controllers and services. Controllers handle HTTP requests and responses, while services contain the business logic. Use @Service annotation on service classes and @Autowired to inject services into controllers.
+
+3.Define Repository Interfaces: Create interfaces that extend JpaRepository for each entity. These interfaces define methods for common CRUD operations and can also include custom queries using Spring Data JPA's query methods or @Query annotations.
 
 
 
