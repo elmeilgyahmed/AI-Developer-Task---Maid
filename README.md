@@ -78,8 +78,10 @@ Run the Flask endpoint; it will utilize port 5000 by default:
    ``` sh
 $ ./endpoint.py
 ```
-
-Then run Spring Boot endpoints using VS Code; it will utilize port 8080 by default.
+Then 
+    
+    ./mvnw clean spring-boot:run
+OR run Spring Boot endpoints using VS Code; it will utilize port 8080 by default.
 
 Now, you can test the implemented endpoints.
 
