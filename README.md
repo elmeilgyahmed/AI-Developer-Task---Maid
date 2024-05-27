@@ -30,10 +30,10 @@ The project is a Flask and Spring Boot application that manages mobile device da
 ## Usage
 ### Dependencies
 Make sure you have the following packages:
-- Apache Maven 3.6.3
-- Java version: 11.0.22
+- Apache Maven : 3.6.3
+- Java version : 11.0.22
 - In your VS Code, install the Spring Boot pack (VS Code Spring Boot Application Development Extension Pack) to run Spring Boot apps and Java Extension Pack.
-
+- That will install Spring Boot Version : 2.6.3 
 Build your Java product and choose Spring Boot App and Maven. Now your pom.xml file should look like this:
   ```sh
    	<parent>
